@@ -7,7 +7,7 @@ export default () => {
     console.log("computeLongest");
     return "test";
   };
-
+  // const longestWord = computeLongestWord();
   const longestWord = useMemo(() => computeLongestWord(), []);
   return (
     <div>

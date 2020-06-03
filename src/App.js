@@ -1,14 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./app.css";
-import UseState from "./example/1-useState";
-import UseEffect from "./example/2-useEffect";
-import UseRef from "./example/3-useRef";
-import UseImperativeHandle from "./example/4-useImperativeHandle";
-import UseContext from "./example/5-useContext";
-import UseCallback from "./example/6-useCallback";
-import UseMemo from "./example/7-useMemo";
-import UseReducer from "./example/8-useReducer";
+import UseState from "./hooks-api/1-useState";
+import UseEffect from "./hooks-api/2-useEffect";
+import UseRef from "./hooks-api/3-useRef";
+import UseImperativeHandle from "./hooks-api/4-useImperativeHandle";
+import UseContext from "./hooks-api/5-useContext";
+import UseCallback from "./hooks-api/6-useCallback";
+import UseMemo from "./hooks-api/7-useMemo";
+import UseReducer from "./hooks-api/8-useReducer";
+import Demo from "./demo";
 
 const routes = [
   {
@@ -42,6 +43,10 @@ const routes = [
   {
     path: "/useReducer",
     component: UseReducer,
+  },
+  {
+    path: "/demo",
+    component: Demo,
   },
 ];
 

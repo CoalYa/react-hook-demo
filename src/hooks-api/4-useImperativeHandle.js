@@ -25,6 +25,7 @@ const MInput = forwardRef(Input);
 export default () => {
   const r1 = useRef(),
     r2 = useRef();
+  console.log(r1);
   return (
     <div>
       <MInput ref={r1} onChange={(x) => console.log(`1: ${x}`)} />

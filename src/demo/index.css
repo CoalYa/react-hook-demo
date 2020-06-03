@@ -1,0 +1,11 @@
+.my-box li {
+  margin: 20px 0;
+}
+
+.my-box p {
+  margin: 10px 0 0;
+}
+
+.my-box a {
+  margin-right: 10px;
+}
