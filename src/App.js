@@ -9,6 +9,7 @@ import UseContext from "./hooks-api/5-useContext";
 import UseCallback from "./hooks-api/6-useCallback";
 import UseMemo from "./hooks-api/7-useMemo";
 import UseReducer from "./hooks-api/8-useReducer";
+import Timeout from "./hooks-api/9-timeout";
 import Demo from "./demo";
 
 const routes = [
@@ -43,6 +44,10 @@ const routes = [
   {
     path: "/useReducer",
     component: UseReducer,
+  },
+  {
+    path: "/timeout",
+    component: Timeout,
   },
   {
     path: "/demo",
